@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas na prática</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px ;
+            border-style: groove;
+            border-color: darkslategrey;
+
+            border: 10px groove darkslategray;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            padding: 10px 10px 10px 10px; /*Se forem todas iguais, informar uma vez só funciona*/ /*E colocar dois valores cima e baixo ficam iguais, esquerda e direita também ficam iguais.*/
+
+            margin: 40px 30px 20px 10px;
+        }
+
+        a {
+            border-width: 10px;
+            border-style: dashed;
+            border-color: brown;
+
+            border: 10px dashed brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Box-Level</h1>
+    <p>Parágrafos são box-level, mas os <a href="https://www.youtube.com/watch?v=A4gJ-0y8itw" target="_blank">links</a>, são exemplos de inline-level</p>
+</body>
+</html>

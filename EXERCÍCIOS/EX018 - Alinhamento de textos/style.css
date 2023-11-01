@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Lemon Milk';
+    src: url(LEMONMILK-Bold.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+    font: normal 16px Arial, Verdana, Serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lemon Milk';
+}

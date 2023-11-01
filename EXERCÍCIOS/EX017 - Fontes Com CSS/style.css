@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url();
+
+    body {
+        background-color: #101010;
+        font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+        /*
+        Medidas absolutas
+
+        cm, mm, px, in, pt, pc
+
+        Medidas Relativas
+
+        em, ex, rem, vw, vh, %
+        16px=1em
+        */
+        font-size: 1em;
+        /*lighter, normal, bold, bolder*/
+    }
+    p {
+        text-align: center;
+        text-align: justify;
+        color: #ffffff;
+        font-size: 1.5em;
+    }
+    h2 {
+        text-align: left;
+        color: darkorchid;
+        font-size: 2em;
+    }
+
+    main {
+        width: 600px;
+        margin: auto;
+        padding: 10px;
+    }

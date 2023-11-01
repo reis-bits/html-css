@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+    <link rel="favorite icon" href="Imagens/favicon.ico.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+        <p>Experimente diminuir ou aumentar o tamanho do navegador para ver o que acontece com a foto</p>
+        <picture>
+            <source media="(max-width:750px )" srcset="Imagens/img-p.jpg" type="image/png">
+            <source media="(max-width:1050px )" srcset="Imagens/img-m.jpg" type="image/png">
+            <img src="Imagens/img-g.jpg" alt="imagem flexível grande">
+        </picture>
+</body>
+</html>
