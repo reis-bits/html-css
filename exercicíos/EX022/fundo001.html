@@ -3,8 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Teste de fundos</title>
+    <style>
+    body {
+        background-image:url(imagens/wallpaper001.jpg);
+    }
+
+    div.square {
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: #f6f6f6;
+        width: 300px;
+        height: 300px;
+    }
+
+    div#q1 {
+        background-color:skyblue;
+    }
+
+    div#q2 {
+        background-image: linear-gradient(to bottom, cornflowerblue, coral);
+    }
+
+    div#q3 {
+        background-image: url(imagens/pattern001.png);
+    }
+    </style>
 </head>
 <body>
     <div class="square" id="q1"></div>
